@@ -322,7 +322,9 @@ HTML提供了6个等级的网页标题
 
 ---
 
- <span style="color:Magenta;font-size:40px">9.表格标签</span>
+###  <span style="color:Magenta;font-size:40px">9.表格标签</span>
+
+#### <span style="color:Mediumorchid;font-size:30px">1.单品格标签</span>
 
 ```html
 表格是实际开发中非常常用的标签：
@@ -333,12 +335,37 @@ HTML提供了6个等级的网页标题
   <td>单元格内的文字</td>
   </tr>
 </table>
-1.<table></table>是用于定义表格的标签
+1.<table></table>是用于定义表格的标签 
 2.<tr></tr>标签用于定义表格中的行，必须嵌套在<table></table>标签中
 3.<td></td>用于定义表格中的单元格，必须嵌套在<tr></tr>标签中
 4.字母td指表格数据（table data）,即数据单元格的内容。
 
+
 ```
+
+#### <span style="color:Mediumorchid;font-size:30px">2.表头单元格标签</span>
+
+```html
+一般表头单元格位于表格的第一行或第一列，表头单元格里面的文本内容加粗居中显示
+<th>标签标识HTML表格的表头部分（table head的缩写）
+  <table>
+    <tr>
+    <th>
+      姓名
+      </th>
+    </tr>
+  </table>
+```
+
+#### <span style="color:Mediumorchid;font-size:30px">3.表格属性</span>
+
+| 属性名      | 属性值              | 描述                                             |
+| ----------- | ------------------- | ------------------------------------------------ |
+| align       | Left、center、right | 规定表格相对周围元素的对齐方式。                 |
+| border      | 1或“”               | 规定表格单元是否拥有边框，默认为“”，表示没有边框 |
+| cellpadding | 像素值              | 规定单元边沿或其内容之间的空白，默认1像素        |
+| cellspacing | 像素值              | 规定单元格之间的空白，默认2像素。                |
+| width       | 像素值或百分比      | 规定表格的宽度                                   |
 
 
 
